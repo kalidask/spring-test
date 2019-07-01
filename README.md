@@ -2,6 +2,13 @@
 
 Just a simple spring boot application, used for testing on OpenShift. To demonstrate how to perform binary builds in OpenShift, let’s walk through steps:
 
+-------------------------------#App Compile #------------------------------------
+To compile this spring applcation , run following command from project base directory:
+
+./mvnw clean install
+
+---------------------------------------------------------------------------------
+
 1. Create project on OCP using CLI:
 
 oc new-project spring-binary

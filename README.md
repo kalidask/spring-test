@@ -1,4 +1,4 @@
-#Binary Builds deployments on OpenShift
+#BINARY BUILDS DEPLOYMENTS ON OPENSHIFT
 
 Just a simple spring boot application, used for testing on OpenShift. To demonstrate how to perform binary builds in OpenShift, let’s walk through steps:
 

@@ -228,31 +228,9 @@
             "value": ""
         },
         {
-            "name": "HORNETQ_QUEUES",
-            "description": "Queue names"
-        },
-        {
-            "name": "HORNETQ_TOPICS",
-            "description": "Topic names"
-        },
-        {
-            "name": "HORNETQ_CLUSTER_PASSWORD",
-            "description": "HornetQ cluster admin password",
-            "generate": "expression",
-            "from": "[a-zA-Z0-9]{8}",
-            "required": true
-        },
-        {
             "name": "IMAGE_STREAM_NAMESPACE",
             "description": "Namespace in which the ImageStreams for Red Hat Middleware images are installed. These ImageStreams are normally installed in the openshift namespace. You should only need to modify this if you've installed the ImageStreams in a different namespace/project.",
             "value": "openshift",
-            "required": true
-        },
-        {
-            "name": "JGROUPS_CLUSTER_PASSWORD",
-            "description": "JGroups cluster password",
-            "generate": "expression",
-            "from": "[a-zA-Z0-9]{8}",
             "required": true
         }
     ],

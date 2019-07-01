@@ -12,10 +12,6 @@ oc process -f spring-binary-build.json | oc create -f -
 
 After the template has been instantiated, a build is automatically triggered.
 
-oc get builds
-NAME                TYPE      FROM      STATUS    STARTED          DURATION
-spring-binary-app-1   Source    Binary    Running   34 seconds ago   32s
-
 Recall that binary builds does not retrieve source code, but expects it to be provided. We can confirm this by viewing the logs of the pods:
 
 oc logs spring-binary-app-1-build
